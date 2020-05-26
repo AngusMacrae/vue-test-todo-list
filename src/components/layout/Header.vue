@@ -22,13 +22,21 @@ export default {
   padding: 10px;
 }
 
-.header #nav a {
+#nav {
+  padding: 5px;
+}
+
+#nav a {
   color: #fff;
   padding-right: 5px;
   text-decoration: none;
 }
 
-#nav {
-  padding: 5px;
+#nav a:hover {
+  color: #bbb;
+}
+
+#nav a.router-link-exact-active {
+  color: green;
 }
 </style>
